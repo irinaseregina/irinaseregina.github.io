@@ -13,6 +13,20 @@
     </image>
     
     <item>
+      <title>Легковесные языки разметки</title>
+      <link>https://example.com/post/post4/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/post4/</guid>
+      <description>&lt;h2 id=&#34;что-такое-легковесные-языки&#34;&gt;Что такое легковесные языки?&lt;/h2&gt;
+&lt;p&gt;Язык разметки в компьютерной терминологии — набор символов или последовательностей символов, вставляемых в текст для передачи информации о его отображении или строении.&lt;/p&gt;
+&lt;h2 id=&#34;в-чем-их-особенность&#34;&gt;В чем их особенность?&lt;/h2&gt;
+&lt;p&gt;Легковесные языки разметки отличаются тем, что они просты в изучении и использовании, имеют не слишком широкий набор функций.&lt;/p&gt;
+&lt;h2 id=&#34;что-относится-к-ним&#34;&gt;Что относится к ним?&lt;/h2&gt;
+&lt;p&gt;К легковесным языкам относится Markdown, с помощью которого мы оформляем отчёты и презентации.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Пост о прошедшей неделе</title>
       <link>https://example.com/post/post1/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
@@ -152,7 +166,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-849371562&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-714689253&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -162,7 +176,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-849371562&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-714689253&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -498,6 +512,53 @@ Crash --&gt; [*]
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 &lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/post/post3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/post3/</guid>
+      <description>&lt;p&gt;title: Пост о прошедшей неделе&lt;/p&gt;
+&lt;h1 id=&#34;link-this-post-with-a-project&#34;&gt;Link this post with a project&lt;/h1&gt;
+&lt;p&gt;projects: []&lt;/p&gt;
+&lt;h1 id=&#34;date-published&#34;&gt;Date published&lt;/h1&gt;
+&lt;p&gt;date: &amp;lsquo;2020-12-13T00:00:00Z&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;date-updated&#34;&gt;Date updated&lt;/h1&gt;
+&lt;p&gt;lastmod: &amp;lsquo;2020-12-13T00:00:00Z&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;is-this-an-unpublished-draft&#34;&gt;Is this an unpublished draft?&lt;/h1&gt;
+&lt;p&gt;draft: false&lt;/p&gt;
+&lt;h1 id=&#34;show-this-page-in-the-featured-widget&#34;&gt;Show this page in the Featured widget?&lt;/h1&gt;
+&lt;p&gt;featured: false&lt;/p&gt;
+&lt;p&gt;authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;admin&lt;/li&gt;
+&lt;li&gt;吳恩達&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Academic&lt;/li&gt;
+&lt;li&gt;开源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demo&lt;/li&gt;
+&lt;li&gt;教程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;краткое-описание-недели&#34;&gt;Краткое описание недели&lt;/h2&gt;
+&lt;p&gt;На этой неделе мы писали контрольную по математичнеской логике, а так же сдавали домашнее задание по технологии программирования.&lt;/p&gt;
+&lt;h2 id=&#34;задания-которые-я-должна-была-выполнить&#34;&gt;Задания, которые я должна была выполнить&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Подготовиться к контрольной работе по математической логике&lt;/li&gt;
+&lt;li&gt;Сделать домашнее задание по технологии программирования&lt;/li&gt;
+&lt;li&gt;Выбрать песни для предстоящего концерта&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;как-я-справилась&#34;&gt;Как я справилась&lt;/h2&gt;
+&lt;p&gt;Математическая логика не самый сложный предмет, поэтому в качестве подготовки к кр я просто прорешала домашнее задание, которое нам дал преподаватель. Домашнее задание по тех.прог. я сделала с трудом, так как для меня это один из самых сложных предметов. Друг моего старшего брата пригласил меня выступать на его мероприятии, поэтому мне нужно было выбрать из своих песен те, с которыми я буду выступать, для этого мы с братом один из вечеров посвятили прослушиванию музыки и попыткам понять, что больше понравится аудитории.&lt;/p&gt;
+&lt;h2 id=&#34;итоги&#34;&gt;Итоги&lt;/h2&gt;
+&lt;p&gt;Эта неделя была очень интересной и разнообразной, а также на улице потеплело, у моего комнатного растения появились новые листики, у меня в квартире начали делать ремонт.&lt;/p&gt;
 </description>
     </item>
     
